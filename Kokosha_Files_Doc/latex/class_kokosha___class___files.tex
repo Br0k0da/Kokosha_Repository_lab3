@@ -1,0 +1,137 @@
+\doxysection{Класс Kokosha\+\_\+\+Class\+\_\+\+Files}
+\hypertarget{class_kokosha___class___files}{}\label{class_kokosha___class___files}\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+
+
+Класс описания Файлов  
+
+
+
+
+{\ttfamily \#include $<$Kokosha\+\_\+\+Class\+\_\+\+Files.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_kokosha___class___files_ab87e834fb6673411580e09286dbcc846}{Kokosha\+\_\+\+Class\+\_\+\+Files}} (string Name, string Size, string Date, string Appeals)
+\begin{DoxyCompactList}\small\item\em Конструктор с заполнением полей класса \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_kokosha___class___files_a9e56ac5fed1023bea7e378ee878f69a8}{Add\+File\+\_\+\+Kokosha}} (string Name, string Size, string Date, string Appeals)
+\begin{DoxyCompactList}\small\item\em Добавляет новый файл \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_kokosha___class___files_aaaf22bca258e6d5e55008a849e715343}{Print\+All\+Files\+\_\+\+Kokosha}} ()
+\begin{DoxyCompactList}\small\item\em Показывает список файлов, упорядоченный в алфавитном порядке \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_kokosha___class___files_ae360dc1ca0b03da3e08a1b5a99649d24}{Print\+Files\+More\+Size\+\_\+\+Kokosha}} (const int size)
+\begin{DoxyCompactList}\small\item\em Показывает список файлов, размер которых превышает заданный \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_kokosha___class___files_af6afbe97cf5a138c547ed43ae2c296bc}{Print\+Files\+More\+Appeals\+\_\+\+Kokosha}} (const int appeals)
+\begin{DoxyCompactList}\small\item\em Показывает список файлов, число обращений к которым превышает заданное \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс описания Файлов 
+
+\begin{DoxyVerb}@file       Kokosha_Class_Files.h
+@brief      Заголовочный файл класса Файлы
+@copyright  ВоГУ
+@author     Кокоша Д.Р.
+@data       29-11-2023
+@version    1.0.0
+\end{DoxyVerb}
+ /par Использует классы\+: \doxylink{class_kokosha___class___files}{Kokosha\+\_\+\+Class\+\_\+\+Files} /par Содержит класс\+: \doxylink{class_kokosha___class___files}{Kokosha\+\_\+\+Class\+\_\+\+Files} Содержит данные файлов и методы для работы с ними 
+
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_kokosha___class___files_ab87e834fb6673411580e09286dbcc846}\label{class_kokosha___class___files_ab87e834fb6673411580e09286dbcc846} 
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\doxysubsubsection{\texorpdfstring{Kokosha\_Class\_Files()}{Kokosha\_Class\_Files()}}
+{\footnotesize\ttfamily Kokosha\+\_\+\+Class\+\_\+\+Files\+::\+Kokosha\+\_\+\+Class\+\_\+\+Files (\begin{DoxyParamCaption}\item[{string}]{Name,  }\item[{string}]{Size,  }\item[{string}]{Date,  }\item[{string}]{Appeals }\end{DoxyParamCaption})}
+
+
+
+Конструктор с заполнением полей класса 
+
+Создает список файлов и инициализирует поля его первого файла 
+\begin{DoxyParams}{Аргументы}
+{\em Name} & имя создаваемого файла \\
+\hline
+{\em Size} & размер создаваемого файла \\
+\hline
+{\em Date} & дата создания файла \\
+\hline
+{\em Appeals} & количество обращений к создаваемому файлу\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVerb}@file       Kokosha_Class_Files.cpp
+@brief      Файл исходных кодов класса Файлы
+@copyright  ВоГУ
+@author     Кокоша Д.Р.
+@data       29-11-2023
+@version    1.0.0
+\end{DoxyVerb}
+ /par Использует классы\+: \doxylink{_kokosha___class___files_8h_source}{Kokosha\+\_\+\+Class\+\_\+\+Files.\+h} /par Содержит класс\+: \doxylink{class_kokosha___class___files}{Kokosha\+\_\+\+Class\+\_\+\+Files} 
+
+\doxysubsection{Методы}
+\Hypertarget{class_kokosha___class___files_a9e56ac5fed1023bea7e378ee878f69a8}\label{class_kokosha___class___files_a9e56ac5fed1023bea7e378ee878f69a8} 
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!AddFile\_Kokosha@{AddFile\_Kokosha}}
+\index{AddFile\_Kokosha@{AddFile\_Kokosha}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\doxysubsubsection{\texorpdfstring{AddFile\_Kokosha()}{AddFile\_Kokosha()}}
+{\footnotesize\ttfamily void Kokosha\+\_\+\+Class\+\_\+\+Files\+::\+Add\+File\+\_\+\+Kokosha (\begin{DoxyParamCaption}\item[{string}]{Name,  }\item[{string}]{Size,  }\item[{string}]{Date,  }\item[{string}]{Appeals }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый файл 
+
+Создает файл и инициализирует его поля 
+\begin{DoxyParams}{Аргументы}
+{\em Name} & имя создаваемого файла \\
+\hline
+{\em Size} & размер создаваемого файла \\
+\hline
+{\em Date} & дата создания файла \\
+\hline
+{\em Appeals} & количество обращений к создаваемому файлу \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_kokosha___class___files_aaaf22bca258e6d5e55008a849e715343}\label{class_kokosha___class___files_aaaf22bca258e6d5e55008a849e715343} 
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!PrintAllFiles\_Kokosha@{PrintAllFiles\_Kokosha}}
+\index{PrintAllFiles\_Kokosha@{PrintAllFiles\_Kokosha}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\doxysubsubsection{\texorpdfstring{PrintAllFiles\_Kokosha()}{PrintAllFiles\_Kokosha()}}
+{\footnotesize\ttfamily void Kokosha\+\_\+\+Class\+\_\+\+Files\+::\+Print\+All\+Files\+\_\+\+Kokosha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Показывает список файлов, упорядоченный в алфавитном порядке 
+
+Выводит имена всех файлов, упорядоченных в алфавитном порядке \Hypertarget{class_kokosha___class___files_af6afbe97cf5a138c547ed43ae2c296bc}\label{class_kokosha___class___files_af6afbe97cf5a138c547ed43ae2c296bc} 
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!PrintFilesMoreAppeals\_Kokosha@{PrintFilesMoreAppeals\_Kokosha}}
+\index{PrintFilesMoreAppeals\_Kokosha@{PrintFilesMoreAppeals\_Kokosha}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\doxysubsubsection{\texorpdfstring{PrintFilesMoreAppeals\_Kokosha()}{PrintFilesMoreAppeals\_Kokosha()}}
+{\footnotesize\ttfamily void Kokosha\+\_\+\+Class\+\_\+\+Files\+::\+Print\+Files\+More\+Appeals\+\_\+\+Kokosha (\begin{DoxyParamCaption}\item[{const int}]{appeals }\end{DoxyParamCaption})}
+
+
+
+Показывает список файлов, число обращений к которым превышает заданное 
+
+Выводит имена файлов, число обращений к которым превышает заданное 
+\begin{DoxyParams}{Аргументы}
+{\em appeals} & заданное число обращений \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_kokosha___class___files_ae360dc1ca0b03da3e08a1b5a99649d24}\label{class_kokosha___class___files_ae360dc1ca0b03da3e08a1b5a99649d24} 
+\index{Kokosha\_Class\_Files@{Kokosha\_Class\_Files}!PrintFilesMoreSize\_Kokosha@{PrintFilesMoreSize\_Kokosha}}
+\index{PrintFilesMoreSize\_Kokosha@{PrintFilesMoreSize\_Kokosha}!Kokosha\_Class\_Files@{Kokosha\_Class\_Files}}
+\doxysubsubsection{\texorpdfstring{PrintFilesMoreSize\_Kokosha()}{PrintFilesMoreSize\_Kokosha()}}
+{\footnotesize\ttfamily void Kokosha\+\_\+\+Class\+\_\+\+Files\+::\+Print\+Files\+More\+Size\+\_\+\+Kokosha (\begin{DoxyParamCaption}\item[{const int}]{size }\end{DoxyParamCaption})}
+
+
+
+Показывает список файлов, размер которых превышает заданный 
+
+Выводит имена файлов, размер которых превышает заданный 
+\begin{DoxyParams}{Аргументы}
+{\em size} & заданный размер \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Kokosha\+\_\+\+Files/\+Kokosha\+\_\+\+Files/Kokosha\+\_\+\+Class\+\_\+\+Files.\+h\item 
+Kokosha\+\_\+\+Files/\+Kokosha\+\_\+\+Files/Kokosha\+\_\+\+Class\+\_\+\+Files.\+cpp\end{DoxyCompactItemize}
